@@ -15,7 +15,7 @@ freifunk-berlin-freifunk-defaults
 freifunk-berlin-migration
 freifunk-berlin-network-defaults
 freifunk-berlin-olsrd-defaults
-community-profiles
+#community-profiles
 
 # Common
 dnsmasq
@@ -30,7 +30,7 @@ luci-theme-bootstrap
 luci-lib-nixio
 uhttpd
 uhttpd-mod-ubus
-luci-app-ffwizard-berlin
+#luci-app-ffwizard-berlin
 luci-app-olsr
 luci-app-olsr-services
 luci-app-owm
@@ -50,4 +50,6 @@ kmod-ipip
 kmod-ipv6
 
 # VPN
-openvpn-polarssl
+#openvpn-polarssl
+kmod-fou
+ip-full
